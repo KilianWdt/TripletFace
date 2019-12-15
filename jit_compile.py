@@ -18,4 +18,4 @@ model = Encoder( 64 )
 weights = torch.load( "model/model.pt" )['model']
 model.load_state_dict( weights )
 jit_model = torch.jit.trace( model, torch.rand(64, 3, 7, 7) )
-torch.jit.save( jit_model, "jit_save" )
+torch.jit.save( jit_model, "jit_result" )
