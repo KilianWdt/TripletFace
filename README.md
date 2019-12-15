@@ -77,7 +77,9 @@ optional arguments:
 * Triplet Loss Paper: [Arxiv](https://arxiv.org/pdf/1503.03832.pdf)
 * TripletTorch Helper Module: [Github](https://github.com/TowardHumanizedInteraction/TripletTorch)
 
-## Jit compile -> see jit_compile.py
+## Jit compile
+
+See jit_compile.py
 
 ## Threshold + centroids
 
